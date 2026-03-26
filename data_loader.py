@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import yfinance as yf
 
-API_KEY = "QL250BCJG5UTR73G"
+API_KEY = "YOUR API KEY"
 
 def load_live_data(symbol, interval="1m"):
     """
