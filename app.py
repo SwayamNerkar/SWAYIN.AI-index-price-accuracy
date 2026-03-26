@@ -77,7 +77,7 @@ with st.sidebar:
     st.title("SWAY.IN")
     st.markdown("---")
     
-    st.header("⚙️ Trading Parameters")
+    st.header(" Trading Parameters")
     symbol = st.selectbox(
         "Select Market Asset",
         options=list(INDIAN_ASSETS.keys()),
@@ -95,7 +95,7 @@ with st.sidebar:
     # Will update status dynamically below
     
     st.markdown("<br><br>", unsafe_allow_html=True)
-    st.subheader("🧪 Advanced Tools")
+    st.subheader("Advanced Tools")
     if st.button("Launch AI Backtester", use_container_width=True):
         st.session_state.show_backtester = not st.session_state.show_backtester
         st.rerun()
